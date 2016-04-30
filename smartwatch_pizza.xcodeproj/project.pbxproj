@@ -21,6 +21,12 @@
 		A1EF20311CD5262900FF1278 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF20301CD5262900FF1278 /* NotificationController.swift */; };
 		A1EF20331CD5262A00FF1278 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF20321CD5262A00FF1278 /* GlanceController.swift */; };
 		A1EF20351CD5262A00FF1278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EF20341CD5262A00FF1278 /* Assets.xcassets */; };
+		A1EF20451CD526AE00FF1278 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF20441CD526AE00FF1278 /* Pizza.swift */; };
+		A1EF20471CD5272500FF1278 /* TipoMasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF20461CD5272500FF1278 /* TipoMasaController.swift */; };
+		A1EF20491CD527BF00FF1278 /* TipoQuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF20481CD527BF00FF1278 /* TipoQuesoController.swift */; };
+		A1EF204B1CD528BD00FF1278 /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF204A1CD528BD00FF1278 /* IngredientesController.swift */; };
+		A1EF204D1CD529AD00FF1278 /* ConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF204C1CD529AD00FF1278 /* ConfirmationController.swift */; };
+		A1EF204F1CD52A0400FF1278 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF204E1CD52A0400FF1278 /* ResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +91,12 @@
 		A1EF20321CD5262A00FF1278 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		A1EF20341CD5262A00FF1278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1EF20361CD5262A00FF1278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EF20441CD526AE00FF1278 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		A1EF20461CD5272500FF1278 /* TipoMasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasaController.swift; sourceTree = "<group>"; };
+		A1EF20481CD527BF00FF1278 /* TipoQuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQuesoController.swift; sourceTree = "<group>"; };
+		A1EF204A1CD528BD00FF1278 /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		A1EF204C1CD529AD00FF1278 /* ConfirmationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationController.swift; sourceTree = "<group>"; };
+		A1EF204E1CD52A0400FF1278 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +163,12 @@
 		A1EF20291CD5262900FF1278 /* smartwatch_pizza WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A1EF204E1CD52A0400FF1278 /* ResultController.swift */,
+				A1EF204C1CD529AD00FF1278 /* ConfirmationController.swift */,
+				A1EF204A1CD528BD00FF1278 /* IngredientesController.swift */,
+				A1EF20481CD527BF00FF1278 /* TipoQuesoController.swift */,
+				A1EF20461CD5272500FF1278 /* TipoMasaController.swift */,
+				A1EF20441CD526AE00FF1278 /* Pizza.swift */,
 				A1EF202C1CD5262900FF1278 /* InterfaceController.swift */,
 				A1EF202E1CD5262900FF1278 /* ExtensionDelegate.swift */,
 				A1EF20301CD5262900FF1278 /* NotificationController.swift */,
@@ -314,9 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EF20491CD527BF00FF1278 /* TipoQuesoController.swift in Sources */,
 				A1EF20311CD5262900FF1278 /* NotificationController.swift in Sources */,
+				A1EF204F1CD52A0400FF1278 /* ResultController.swift in Sources */,
 				A1EF202F1CD5262900FF1278 /* ExtensionDelegate.swift in Sources */,
 				A1EF202D1CD5262900FF1278 /* InterfaceController.swift in Sources */,
+				A1EF204B1CD528BD00FF1278 /* IngredientesController.swift in Sources */,
+				A1EF20471CD5272500FF1278 /* TipoMasaController.swift in Sources */,
+				A1EF20451CD526AE00FF1278 /* Pizza.swift in Sources */,
+				A1EF204D1CD529AD00FF1278 /* ConfirmationController.swift in Sources */,
 				A1EF20331CD5262A00FF1278 /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
